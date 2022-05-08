@@ -17,7 +17,7 @@ It is highly recommended to use Colaboratory ([Colab](https://colab.research.goo
 
 ### Usage 
   #### Prepare Data
-  > Note: If you want to train your model with already pre-processed data go to the **Spiking Neural Network** Section
+  > Note: Preprocessed data can be found in the PreprocessedData folder
   
   In order to prepare your data follow the steps below:
 
