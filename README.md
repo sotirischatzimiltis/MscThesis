@@ -15,6 +15,20 @@ It is highly recommended to use Colaboratory ([Colab](https://colab.research.goo
 - Only one requirement, a google account
 - Most common Machine Learning frameworks pre-installed and ready to use
 
+### Usage 
+  #### Prepare Data
+  > Note: If you want to train your model with already pre-processed data go to the **Spiking Neural Network** Section
+  
+  In order to prepare your data follow the steps below:
+
+  1. Download the [data_preprocessing.ipynb](https://gitlab.com/schatz06/pssp/-/blob/master/data_preprocessing/extract_protbert_embeddings.ipynb)
+
+  2. Download the NSLKDD dataset: [NSLKDD dataset](https://gitlab.com/schatz06/pssp/-/blob/master/Datasets/CASP13)
+    
+  3. Open [Colab](https://colab.research.google.com/notebooks/welcome.ipynb) and sign in to your Google account. If you do not have a Google account, you can create one [here](https://accounts.google.com/signup/v2/webcreateaccount?hl=en&flowName=GlifWebSignIn&flowEntry=SignUp).
+
+  4. Go to _File > Upload notebook > Choose file_ and browse to find the downloaded notebook [data_preprocessing.ipynb](https://gitlab.com/schatz06/pssp/-/blob/master/data_preprocessing/extract_protbert_embeddings.ipynb) If you have already uploaded the notebook to Colab you can open it with _File > Open notebook_ and choose **data_preprocessing.ipynb**. 
+
 
 
 
