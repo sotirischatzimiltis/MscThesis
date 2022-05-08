@@ -28,6 +28,9 @@ It is highly recommended to use Colaboratory ([Colab](https://colab.research.goo
   3. Open [Colab](https://colab.research.google.com/notebooks/welcome.ipynb) and sign in to your Google account. If you do not have a Google account, you can create one [here](https://accounts.google.com/signup/v2/webcreateaccount?hl=en&flowName=GlifWebSignIn&flowEntry=SignUp).
 
   4. Go to _File > Upload notebook > Choose file_ and browse to find the downloaded notebook [data_preprocessing.ipynb](https://github.com/sotirischatzimiltis/MscThesis/blob/main/DataPreProcessing/data_preprocessing.ipynb) If you have already uploaded the notebook to Colab you can open it with _File > Open notebook_ and choose **data_preprocessing.ipynb**. 
+  
+  #### Spiking Neural Network
+  In order to train a SNN model follow the steps below:
 
 
 
