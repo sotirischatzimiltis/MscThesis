@@ -31,11 +31,8 @@ It is highly recommended to use Colaboratory ([Colab](https://colab.research.goo
 
   4. Go to _File > Upload notebook > Choose file_ and browse to find the downloaded notebook [data_preprocessing.ipynb](https://github.com/sotirischatzimiltis/MscThesis/blob/main/DataPreProcessing/data_preprocessing.ipynb) If you have already uploaded the notebook to Colab you can open it with _File > Open notebook_ and choose **data_preprocessing.ipynb**. 
   
-  #### Spiking Neural Network
-  In order to train a SNN model follow the steps below:
-  
-In order to be able to run the notebook first you need to go through the **Prepare Data** section, to extract the train,validation and independent test matlab files.
-To perform experiments using the embeddings extracted above, follow the steps below:
+#### Spiking Neural Network
+In order to train a SNN model follow the steps below:
 
 0. Download the [spiking_neural_network.ipynb](https://github.com/sotirischatzimiltis/MscThesis/blob/main/SpikingNeuralNetwork/spiking_neural_network.ipynb ).
 
@@ -50,4 +47,18 @@ To perform experiments using the embeddings extracted above, follow the steps be
 5. To train the model go to _Runtime > Run all_ or click on the first cell and use **Shift + Enter** to execute each cell one by one.
 
 6. The hyper parameters of the model can be modified in the cell under **Set Train Arguments** section.
+
+#### Set Train Arguments
+1. bsize: Batch Size
+  > Default: 64
+2. nhidden: Number of hidden nodes
+  > Default: 4000
+3. nsteps: Number of input time steps
+  > Default: 25
+4. b: beta/decay factor of membrane potential 
+  > Default: 0.9
+5. learning_rate: Learninig Rate of optimizer
+  > Default: 5e-4
+6. nepochs: Number of training epochs
+  > Default: 10 
  
