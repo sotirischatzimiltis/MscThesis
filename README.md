@@ -17,8 +17,6 @@ It is highly recommended to use Colaboratory ([Colab](https://colab.research.goo
 
 ### Usage 
   #### Prepare Data
-  > Note: Preprocessed data can be found in the PreprocessedData folder
-  
   In order to prepare your data follow the steps below:
 
   1. Download the [data_preprocessing.ipynb](https://github.com/sotirischatzimiltis/MscThesis/blob/main/DataPreProcessing/data_preprocessing.ipynb)
