@@ -21,7 +21,7 @@ It is highly recommended to use Colaboratory ([Colab](https://colab.research.goo
   
   In order to prepare your data follow the steps below:
 
-  1. Download the [data_preprocessing.ipynb](https://gitlab.com/schatz06/pssp/-/blob/master/data_preprocessing/extract_protbert_embeddings.ipynb)
+  1. Download the [data_preprocessing.ipynb](https://github.com/sotirischatzimiltis/MscThesis/blob/main/DataPreProcessing/data_preprocessing.ipynb)
 
   2. Download the NSLKDD dataset: [NSLKDD dataset](https://gitlab.com/schatz06/pssp/-/blob/master/Datasets/CASP13)
     
