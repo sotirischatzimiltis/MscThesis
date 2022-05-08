@@ -15,6 +15,10 @@ It is highly recommended to use Colaboratory ([Colab](https://colab.research.goo
 - Only one requirement, a google account
 - Most common Machine Learning frameworks pre-installed and ready to use
 
+> Note: if you are not going to use Google Colab you will need to make sure that you satisfy the below requirements
+#### Requirements
+
+
 ### Usage 
   #### Prepare Data
   In order to prepare your data follow the steps below:
@@ -29,6 +33,8 @@ It is highly recommended to use Colaboratory ([Colab](https://colab.research.goo
   
   #### Spiking Neural Network
   In order to train a SNN model follow the steps below:
+  
+  
 
 
 
