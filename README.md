@@ -27,6 +27,7 @@ It is highly recommended to use Colaboratory ([Colab](https://colab.research.goo
   In order to prepare your data follow the steps below:
 
   1. Download the [data_preprocessing.ipynb](https://github.com/sotirischatzimiltis/MscThesis/blob/main/DataPreProcessing/data_preprocessing.ipynb)
+  > Note: Alternatively launch the **data_preprocessing.ipynb** through the launch button 
 
   2. Download the NSLKDD dataset: [NSLKDD dataset](https://github.com/sotirischatzimiltis/MscThesis/tree/main/NSLKDD)
     
@@ -37,19 +38,19 @@ It is highly recommended to use Colaboratory ([Colab](https://colab.research.goo
 #### Spiking Neural Network
 In order to train a SNN model follow the steps below:
 
-0. Download the [spiking_neural_network.ipynb](https://github.com/sotirischatzimiltis/MscThesis/blob/main/SpikingNeuralNetwork/spiking_neural_network.ipynb ).
+1. Download the [spiking_neural_network.ipynb](https://github.com/sotirischatzimiltis/MscThesis/blob/main/SpikingNeuralNetwork/spiking_neural_network.ipynb ).
+> Note: Alternatively launch the **spiking_neural_network.ipynb** through the launch button
+2. Open [Colab](https://colab.research.google.com/notebooks/welcome.ipynb) and sign in to your Google account. If you do not have a Google account, you can create one [here](https://accounts.google.com/signup/v2/webcreateaccount?hl=en&flowName=GlifWebSignIn&flowEntry=SignUp).
 
-1. Open [Colab](https://colab.research.google.com/notebooks/welcome.ipynb) and sign in to your Google account. If you do not have a Google account, you can create one [here](https://accounts.google.com/signup/v2/webcreateaccount?hl=en&flowName=GlifWebSignIn&flowEntry=SignUp).
-
-2. Go to _File > Upload notebook > Choose file_ and browse to find the downloaded notebook file [spiking_neural_network.ipynb](https://github.com/sotirischatzimiltis/MscThesis/blob/main/SpikingNeuralNetwork/spiking_neural_network.ipynb ). If you have already uploaded the notebook to Colab you can open it with _File > Open notebook_ and choose **spkiking_neural_network.ipynb**. 
+3. Go to _File > Upload notebook > Choose file_ and browse to find the downloaded notebook file [spiking_neural_network.ipynb](https://github.com/sotirischatzimiltis/MscThesis/blob/main/SpikingNeuralNetwork/spiking_neural_network.ipynb ). If you have already uploaded the notebook to Colab you can open it with _File > Open notebook_ and choose **spkiking_neural_network.ipynb**. 
 
 3. Once the notebook is loaded, go to _Runtime > Change runtime type_ and from the dropdown menu, under **Hardware accelerator**, choose **GPU** and click **Save**.
 
-4. Now you can begin the experiments. All you have to do is to upload the dataset you want and set the parameters in the cell under **Datasets** section.
+5. Now you can begin the experiments. All you have to do is to upload the dataset you want and set the parameters in the cell under **Datasets** section.
 
-5. To train the model go to _Runtime > Run all_ or click on the first cell and use **Shift + Enter** to execute each cell one by one.
+6. To train the model go to _Runtime > Run all_ or click on the first cell and use **Shift + Enter** to execute each cell one by one.
 
-6. The hyper parameters of the model can be modified in the cell under **Set Train Arguments** section.
+7. The hyper parameters of the model can be modified in the cell under **Set Train Arguments** section.
 
 #### Set Train Arguments
 1. bsize: Batch Size
