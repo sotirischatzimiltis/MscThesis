@@ -16,12 +16,18 @@ The final pre-processing step is either feature selection or dimensionality redu
 The next stage is to classify if the data traffic captured as either normal or malicious, by using Spiking Neural Networks (SNN).
 Last step is the evaluation of the classfier.
 
-#### About Spiking Neural Networks:
-![plot](https://github.com/sotirischatzimiltis/MscThesis/blob/main/Images/smart_meter_architecture.png)
+#### About Spiking Neural Networks
+![plot](https://github.com/sotirischatzimiltis/MscThesis/blob/main/Images/leaky_neuron_SNN.JPG)
 
-SNNs are a kind of artificial neural networks, with the difference being that rather than having the traditional artificial neuron (e.g. McCulloch-Pits) they trade it for a spiking neuron. Spiking neurons, produce a weighted sum of inputs but instead of forwarding the result into an activation function (e.g. sigmoid, ReLU), this sum contributes to the membrane potential *U(t)* of the neuron. The main condition is when *U(t)* passes a pre-defined threshold the neuron will emit a spike to successive connections
+SNNs are a kind of artificial neural networks, with the difference being that rather than having the traditional artificial neuron (e.g. McCulloch-Pits) they trade it for a spiking neuron. Spiking neurons, produce a weighted sum of inputs but instead of forwarding the result into an activation function (e.g. sigmoid, ReLU), this sum contributes to the membrane potential *U(t)* of the neuron. The main condition is when *U(t)* passes a pre-defined threshold the neuron will emit a spike to successive connections. Figure above illustrates the architecture of a single spiking neuron. From the left image we see the implicit recurrence (i.e the decay part) and V (explicit recurrence) is the 
+multiplication of Sout[t] and -θ. The right image shows an unrolled iteration of how the neuron 
+operates. 
+Another brain inspired modification that SNNs have over the ANNs is the nature of the inputs to 
+the network where SNN inputs are encoded to spikes. 
 
-Reference: 
+
+##### Reference 
+*Jason K. Eshraghian, Max Ward, Emre Neftci, Xinxin Wang, Gregor Lenz, Girish Dwivedi, Mohammed Bennamoun, Doo Seok Jeong, and Wei D. Lu “Training Spiking Neural Networks Using Lessons From Deep Learning”. arXiv preprint arXiv:2109.12894, September 2021.*
 
 ### Installation 
 It is highly recommended to use Colaboratory ([Colab](https://colab.research.google.com/notebooks/welcome.ipynb)) to run the notebooks, because it allows to write and execute Python code in a browser with:
