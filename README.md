@@ -17,6 +17,11 @@ The next stage is to classify if the data traffic captured as either normal or m
 Last step is the evaluation of the classfier.
 
 #### About Spiking Neural Networks:
+![plot](https://github.com/sotirischatzimiltis/MscThesis/blob/main/Images/smart_meter_architecture.png)
+
+SNNs are a kind of artificial neural networks, with the difference being that rather than having the traditional artificial neuron (e.g. McCulloch-Pits) they trade it for a spiking neuron. Spiking neurons, produce a weighted sum of inputs but instead of forwarding the result into an activation function (e.g. sigmoid, ReLU), this sum contributes to the membrane potential *U(t)* of the neuron. The main condition is when *U(t)* passes a pre-defined threshold the neuron will emit a spike to successive connections
+
+Reference: 
 
 ### Installation 
 It is highly recommended to use Colaboratory ([Colab](https://colab.research.google.com/notebooks/welcome.ipynb)) to run the notebooks, because it allows to write and execute Python code in a browser with:
