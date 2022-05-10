@@ -10,6 +10,12 @@ System (IDS) is a surveillance system monitoring the traffic flow over the netwo
 ####  Smart Meter Intrusion Detection System Architecture
 ![plot](https://github.com/sotirischatzimiltis/MscThesis/blob/main/Images/smart_meter_architecture.png)
 
+Data traffic is captured, and passed through the pre-processing stage, whre is normalized using the min-max normalization technique.
+The second pre-processing step is to encode non-numeric using one-hot encoding. 
+The final pre-processing step is either feature selection or dimensionality reduction. 
+The next stage is to classify if the data traffic captured as either normal or malicious, by using Spiking Neural Networks (SNN).
+Last step is the evaluation of the classfier.
+
 #### About Spiking Neural Networks:
 
 ### Installation 
@@ -22,6 +28,7 @@ It is highly recommended to use Colaboratory ([Colab](https://colab.research.goo
 - Most common Machine Learning frameworks pre-installed and ready to use
 
 > Note: if you are not going to use Google Colab you will need to make sure that you satisfy the below requirements
+
 #### Requirements
 - SNNtorch(>= 0.5.1)
 - PyTorch(>= 1.11.0)
