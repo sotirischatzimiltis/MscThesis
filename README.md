@@ -7,6 +7,8 @@ wide variety of devices connected to the SG communication infrastructure generat
 technologies. Hence, this project aims to design a robust IDS dealing with anomaly SG data and impose the proper defence algorithm to alert the network. An intrusion Detection 
 System (IDS) is a surveillance system monitoring the traffic flow over the network, seeking any abnormal behaviour to detect possible intrusions or attacks against the SG system.
 
+#### Intrusion Detection System Architecture
+
 #### About Spiking Neural Networks:
 
 ### Installation 
