@@ -49,8 +49,12 @@ It is highly recommended to use Colaboratory ([Colab](https://colab.research.goo
   #### Prepare Data
   In order to prepare your data follow the steps below:
 
-  1. Download the [data_preprocessing.ipynb](https://github.com/sotirischatzimiltis/MscThesis/blob/main/DataPreProcessing/data_preprocessing.ipynb)
-  > Note: Alternatively launch the **data_preprocessing.ipynb** through the launch button 
+  1. Download one of the following scripts depending on the desired experiment
+[binary_classification_std_scaler](https://github.com/sotirischatzimiltis/MscThesis/blob/main/DataPreProcessing/BinaryClassification/nsl_kdd_preprocessing_binary_stdscaler.ipynb),
+[binary_classification_minmax_scaler](https://github.com/sotirischatzimiltis/MscThesis/blob/main/DataPreProcessing/BinaryClassification/nsl_kdd_preprocessing_binary_minmaxscaler.ipynb),
+[multiclass_classification_std_scaler](https://github.com/sotirischatzimiltis/MscThesis/blob/main/DataPreProcessing/MultiClassClassification/nsl_kdd_preprocessing_multiclass_stdscaler.ipynb),
+[multiclass_classification_minmax_scaler](https://github.com/sotirischatzimiltis/MscThesis/blob/main/DataPreProcessing/MultiClassClassification/nsl_kdd_preprocessing_multiclass_minmaxscaler.ipynb)
+  > Note: Alternatively launch the desired script using the launch button 
 
   2. Download the NSLKDD dataset: [NSLKDD dataset](https://github.com/sotirischatzimiltis/MscThesis/tree/main/NSLKDD)
     
