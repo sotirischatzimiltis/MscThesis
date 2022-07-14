@@ -56,7 +56,7 @@ It is highly recommended to use Colaboratory ([Colab](https://colab.research.goo
 [multiclass_classification_minmax_scaler](https://github.com/sotirischatzimiltis/MscThesis/blob/main/DataPreProcessing/MultiClassClassification/nsl_kdd_preprocessing_multiclass_minmaxscaler.ipynb)
   > Note: Alternatively launch the desired script using the launch button 
 
-  2. Download the NSLKDD dataset: [NSLKDD dataset](https://github.com/sotirischatzimiltis/MscThesis/tree/main/NSLKDD)
+  2. If you want to process the NSLKDD dataset in a different way you can download it from Download the NSLKDD dataset: [NSLKDD dataset](https://www.unb.ca/cic/datasets/nsl.html)
     
   3. Open [Colab](https://colab.research.google.com/notebooks/welcome.ipynb) and sign in to your Google account. If you do not have a Google account, you can create one [here](https://accounts.google.com/signup/v2/webcreateaccount?hl=en&flowName=GlifWebSignIn&flowEntry=SignUp).
 
