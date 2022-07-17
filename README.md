@@ -79,7 +79,7 @@ In order to train a SNN model follow the steps below:
 
 7. The hyper parameters of the model can be modified in the cell under **Set Train Arguments** section.
 
-#### Set Train Arguments
+##### Set Train Arguments
 1. bsize: Batch Size
   > Default: 64
 2. nhidden: Number of hidden nodes
@@ -92,4 +92,7 @@ In order to train a SNN model follow the steps below:
   > Default: 5e-4
 6. nepochs: Number of training epochs
   > Default: 10 
+ 
+ #### Traditional ML techniques
+ 1. Download either the [binary](https://github.com/sotirischatzimiltis/MscThesis/blob/main/TraditionalML/traditionalml_binary_classification.py) or [multiclass](https://github.com/sotirischatzimiltis/MscThesis/blob/main/TraditionalML/traditionalml_multiclass_classification.py) classification python script.
  
