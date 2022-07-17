@@ -95,4 +95,11 @@ In order to train a SNN model follow the steps below:
  
  #### Traditional ML techniques
  1. Download either the [binary](https://github.com/sotirischatzimiltis/MscThesis/blob/main/TraditionalML/traditionalml_binary_classification.py) or [multiclass](https://github.com/sotirischatzimiltis/MscThesis/blob/main/TraditionalML/traditionalml_multiclass_classification.py) classification python script.
+
+ 2. Put the correct paths to the test and train datasets.
  
+ 3. Execute the script.
+  > Note: No need to assign values to hyperparameters. The script uses gridsearchCV using two-fold cross validation to find the best hyperparameters from a given list 
+ 
+ #### Federated Learning
+ > Note: For this part it is better to follow the documentation provided by Flower [here](https://flower.dev/docs/)
