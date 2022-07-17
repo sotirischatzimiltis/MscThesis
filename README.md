@@ -25,6 +25,10 @@ SNNs are a kind of artificial neural networks, with the difference being that ra
 ##### Reference 
 *Jason K. Eshraghian, Max Ward, Emre Neftci, Xinxin Wang, Gregor Lenz, Girish Dwivedi, Mohammed Bennamoun, Doo Seok Jeong, and Wei D. Lu “Training Spiking Neural Networks Using Lessons From Deep Learning”. arXiv preprint arXiv:2109.12894, September 2021.*
 
+#### About Federated Learning 
+
+##### Reference
+
 ### Installation 
 It is highly recommended to use Colaboratory ([Colab](https://colab.research.google.com/notebooks/welcome.ipynb)) to run the notebooks, because it allows to write and execute Python code in a browser with:
 
