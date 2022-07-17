@@ -37,15 +37,15 @@ It is highly recommended to use Colaboratory ([Colab](https://colab.research.goo
 > Note: if you are not going to use Google Colab you will need to make sure that you satisfy the below requirements
 
 #### Requirements
-- SNNtorch(>= 0.5.1)
-- PyTorch(>= 1.11.0)
-- Numpy(>= 1.21.6)
-- Pandas(>= 1.3.5)
-- Seaborn(>= 0.11.2)
-- Matplotlib(>= 3.2.2)
-- Sklearn(>= 1.0.2)
-- Flwr(== 0.19.0)
-- Openml(== 0.12.2)
+- SNNtorch (>= 0.5.1)
+- PyTorch (>= 1.11.0)
+- Numpy (>= 1.21.6)
+- Pandas (>= 1.3.5)
+- Seaborn (>= 0.11.2)
+- Matplotlib (>= 3.2.2)
+- Sklearn (>= 1.0.2)
+- Flwr (== 0.19.0)
+- Openml (== 0.12.2)
 
 ### Usage 
   #### Prepare Data
