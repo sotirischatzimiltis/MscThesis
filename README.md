@@ -49,7 +49,10 @@ HFL can be applied in neighbourhoods of SMs. Most of the smart meters produce da
 
 ##### Reference
 *Q. Yang, Y. Liu, T. Chen and Y. Tong, “Federated Machine Learning: Concept and Applications,” ACM Transactions on Intelligent Systems and Technology, vol. 10, no. 2, pp. 1-19, 2019.*
+
 ### Results
+The code for training and testing the SNN was based on snnTorch tutorials, the rest of the machine learning models were implemented using Scikit-learn, and the framework used for federated learning was Flower.  The dataset utilised for the experiments was the NSLKDD which is vastly used as a benchmark ML dataset. The NSLKDD Test+ dataset was used for testing.
+
 #### Binary Classification
 #### Multiclass Classification
 #### Federated Learning
