@@ -10,11 +10,14 @@ System (IDS) is a surveillance system monitoring the traffic flow over the netwo
 ####  Smart Meter Intrusion Detection System Architecture
 ![plot](https://github.com/sotirischatzimiltis/MscThesis/blob/main/Images/smartmeter_architecture.png)
 
-Data traffic is captured, and passed through the pre-processing stage, whre is normalized using the min-max normalization technique.
-The second pre-processing step is to encode non-numeric using one-hot encoding. 
+Data traffic is captured, and passed through the pre-processing stage, where is normalized using either the min-max normalization or the standard scaler technique.
+The second pre-processing step is to encode non-numeric features using one-hot encoding. 
 The final pre-processing step is either feature selection or dimensionality reduction. 
 The next stage is to classify if the data traffic captured as either normal or malicious, by using Spiking Neural Networks (SNN).
 Last step is the evaluation of the classfier.
+
+#### Performance Evaluation metrics 
+
 
 #### About Spiking Neural Networks
 ![plot](https://github.com/sotirischatzimiltis/MscThesis/blob/main/Images/leaky_neuron_SNN.JPG)
