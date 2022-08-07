@@ -34,6 +34,15 @@ SNNs are a kind of artificial neural networks, with the difference being that ra
 #### About Federated Learning 
 ![plot](https://github.com/sotirischatzimiltis/MscThesis/blob/main/Images/architecture_Federated_Learning.JPG)
 
+The creation of machine learning models demands training the various models using data. Gathering these data can be a difficult task. To be more specific in order to train an IDS that is going to be deployed in a SM there is the need of collecting huge amounts of data traffic from various SMs located in different physical locations. However due to the arising user pri-vacy and data security awareness new ways have to be paved in order to achieve creating an IDS that the data to be used in training are stored as “data islands” in many physical locations.
+
+For this dissertation  the concept of HFL (horizontal federated learning) was utilised, where devices have the same feature space but different space samples. Figure illustrates HFL architecture and steps. Each device (client) has its own data, and therefore at the start point each device trains its own model. The weights of every model are encrypted and transmitted to the server where they are combined. The server then sends an aggregated new model to every device. Finally devices update their model with the new weights. 
+
+There are multiple ways that the server aggregates the weights. For this dissertation the FedAVG technique was used which is the most usual technique. FedAVG calculates the aver-age of the weights. 
+
+HFL can be applied in neighbourhoods of SMs. Most of the smart meters produce data in the same feature space. Finally there is no exchange of data from the SMs which is another advantage since a main concern is data privacy and protection.. 
+
+
 ##### Reference
 *Q. Yang, Y. Liu, T. Chen and Y. Tong, “Federated Machine Learning: Concept and Applications,” ACM Transactions on Intelligent Systems and Technology, vol. 10, no. 2, pp. 1-19, 2019.*
 ### Results
