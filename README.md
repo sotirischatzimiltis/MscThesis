@@ -31,6 +31,10 @@ SNNs are a kind of artificial neural networks, with the difference being that ra
 ### Neighborhood Area Network (NAN) IDS:
 ![plot](https://github.com/sotirischatzimiltis/MscThesis/blob/main/Images/general_architecture_updated.png)
 
+Starting from the bottom up, at the home are network level (green region), where each household has its own smart meter. Smart meters, gather information concerning the electricity consumption, as well as communicating with other smart appliances installed at home. The user can login the SM to view these information, however an intruder can do the same. Introducing an IDS in that first level, we apply a first layer of defence against attacks.  
+
+Another layer of defence can be applied in the neighbourhood area network (blue region). Each NAN has a data concentrator where information from nearby SMs is collected. Thus, an IDS can be deployed in this level in order to analyse the information and detect intrusions that may pass the SM IDS.  
+
 #### About Federated Learning 
 ![plot](https://github.com/sotirischatzimiltis/MscThesis/blob/main/Images/architecture_Federated_Learning.JPG)
 
