@@ -29,11 +29,13 @@ SNNs are a kind of artificial neural networks, with the difference being that ra
 *Jason K. Eshraghian, Max Ward, Emre Neftci, Xinxin Wang, Gregor Lenz, Girish Dwivedi, Mohammed Bennamoun, Doo Seok Jeong, and Wei D. Lu “Training Spiking Neural Networks Using Lessons From Deep Learning”. arXiv preprint arXiv:2109.12894, September 2021.*
 
 ### Neighborhood Area Network (NAN) IDS:
+![plot](https://github.com/sotirischatzimiltis/MscThesis/blob/main/Images/general_architecture_updated.png)
 
 #### About Federated Learning 
+![plot](https://github.com/sotirischatzimiltis/MscThesis/blob/main/Images/architecture_Federated_Learning.JPG)
 
 ##### Reference
-
+*Q. Yang, Y. Liu, T. Chen and Y. Tong, “Federated Machine Learning: Concept and Applications,” ACM Transactions on Intelligent Systems and Technology, vol. 10, no. 2, pp. 1-19, 2019.*
 ### Results
 #### Binary Classification
 #### Multiclass Classification
