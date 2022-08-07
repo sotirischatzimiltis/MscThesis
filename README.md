@@ -1,23 +1,23 @@
-## Msc Computer Vision, Machine Learning and Robotics Thesis Github Repository
-### Title: A Lightweight Supervised Intrusion Detection System for Future Smart Grid Metering Network
-#### Abstract:
+# Msc Computer Vision, Machine Learning and Robotics Thesis Github Repository
+## Title: A Lightweight Supervised Intrusion Detection System for Future Smart Grid Metering Network
+### Abstract:
 The integration of information and communication technologies into the power generation, 
 transmission and distribution system provides a new concept called Smart Grid (SG). The 
 wide variety of devices connected to the SG communication infrastructure generates heterogeneous data with different Quality of Service (QoS) requirements and communication 
 technologies. Hence, this project aims to design a robust IDS dealing with anomaly SG data and impose the proper defence algorithm to alert the network. An intrusion Detection 
 System (IDS) is a surveillance system monitoring the traffic flow over the network, seeking any abnormal behaviour to detect possible intrusions or attacks against the SG system.
 
-####  Smart Meter Intrusion Detection System Architecture
+###  Smart Meter Intrusion Detection System (IDS) Architecture:
 ![plot](https://github.com/sotirischatzimiltis/MscThesis/blob/main/Images/smartmeter_architecture.png)
 
 Data traffic is captured, and passed through the pre-processing stage, where is normalized using either the min-max normalization or the standard scaler technique.
 The second pre-processing step is to encode non-numeric features using one-hot encoding. 
 The final pre-processing step is either feature selection or dimensionality reduction. 
-The next stage is to classify if the data traffic captured as either normal or malicious, by using Spiking Neural Networks (SNN).
+The next stage is to classify if the data traffic captured as either normal or malicious, by using either Spiking Neural Networks (SNN) or other traditional machine learning techniques such as Decision Tree (DT), Random Forest (RF), Multi-layer Perceptron (MLP), Gradient-boosting Classifier (GBC) and K nearest neighbors (K-NN).
 Last step is the evaluation of the classfier.
 
 #### Performance Evaluation metrics 
-
+![plot](https://github.com/sotirischatzimiltis/MscThesis/blob/main/Images/performance_metrics_new.jpg)
 
 #### About Spiking Neural Networks
 ![plot](https://github.com/sotirischatzimiltis/MscThesis/blob/main/Images/leaky_neuron_SNN.JPG)
@@ -28,10 +28,18 @@ SNNs are a kind of artificial neural networks, with the difference being that ra
 ##### Reference 
 *Jason K. Eshraghian, Max Ward, Emre Neftci, Xinxin Wang, Gregor Lenz, Girish Dwivedi, Mohammed Bennamoun, Doo Seok Jeong, and Wei D. Lu “Training Spiking Neural Networks Using Lessons From Deep Learning”. arXiv preprint arXiv:2109.12894, September 2021.*
 
+### Neighborhood Area Network (NAN) IDS:
+
 #### About Federated Learning 
 
 ##### Reference
 
+### Results
+#### Binary Classification
+#### Multiclass Classification
+#### Federated Learning
+
+## Helpful Documentation
 ### Installation 
 It is highly recommended to use Colaboratory ([Colab](https://colab.research.google.com/notebooks/welcome.ipynb)) to run the notebooks, because it allows to write and execute Python code in a browser with:
 
