@@ -8,7 +8,7 @@ technologies. Hence, this project aims to design a robust IDS dealing with anoma
 System (IDS) is a surveillance system monitoring the traffic flow over the network, seeking any abnormal behaviour to detect possible intrusions or attacks against the SG system.
 
 ####  Smart Meter Intrusion Detection System Architecture
-![plot](https://github.com/sotirischatzimiltis/MscThesis/blob/main/Images/smart_meter_architecture.png)
+![plot](https://github.com/sotirischatzimiltis/MscThesis/blob/main/Images/smartmeter_architecture.png)
 
 Data traffic is captured, and passed through the pre-processing stage, whre is normalized using the min-max normalization technique.
 The second pre-processing step is to encode non-numeric using one-hot encoding. 
