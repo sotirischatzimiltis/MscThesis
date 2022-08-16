@@ -203,5 +203,6 @@ optimizer = torch.optim.Adam(net.parameters(), lr=learning_rate, betas=(0.9, 0.9
 epochs = 1
 #*****************************************************************************#
 # Start Flower client
-fl.client.start_numpy_client("localhost:8080", client=FlowerClient(), root_certificates=Path(".cache/certificates/ca.crt").read_bytes(),)
+#fl.client.start_numpy_client("localhost:8080", client=FlowerClient(), root_certificates=Path(".cache/certificates/ca.crt").read_bytes(),)
+fl.client.start_numpy_client("localhost:8080", client=FlowerClient())
 #*****************************************************************************#
