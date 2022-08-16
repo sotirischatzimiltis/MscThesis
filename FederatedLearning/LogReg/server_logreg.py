@@ -52,14 +52,15 @@ if __name__ == "__main__":
     strategy = fl.server.strategy.FedAvg(
         eval_fn=get_eval_fn(model),
         on_fit_config_fn=fit_round,fraction_fit=1,min_fit_clients=3,min_available_clients=3,min_eval_clients=3,)
-
-    fl.server.start_server(
-    server_address="localhost:8080",
-    config={"num_rounds": 15},
-    strategy=strategy,
-    certificates=(
-        Path(".cache/certificates/ca.crt").read_bytes(),
-        Path(".cache/certificates/server.pem").read_bytes(),
-        Path(".cache/certificates/server.key").read_bytes(),
-    )
-)
+    fl.server.start_server(erver_address="localhost:8080", config={"num_rounds": 15}, strategy=strategy)
+#     fl.server.start_server(
+#     server_address="localhost:8080",
+#     config={"num_rounds": 15},
+#     strategy=strategy,
+#     certificates=(
+#         Path(".cache/certificates/ca.crt").read_bytes(),
+#         Path(".cache/certificates/server.pem").read_bytes(),
+#         Path(".cache/certificates/server.key").read_bytes(),
+#     )
+# )
+    
