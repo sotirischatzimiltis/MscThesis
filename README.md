@@ -126,4 +126,6 @@ In order to train a SNN model follow the steps below:
  
  #### Federated Learning
  > Note: For this part it is better to follow the documentation provided by Flower [here](https://flower.dev/docs/)
- 1. Open the experiment folder you want to recreate: MLP,SNN or LogReg.  
+ 1. Open the experiment folder you want to recreate: [MLP](https://github.com/sotirischatzimiltis/MscThesis/tree/main/FederatedLearning/MLP) , [SNN](https://github.com/sotirischatzimiltis/MscThesis/tree/main/FederatedLearning/SNN) or [LogReg](https://github.com/sotirischatzimiltis/MscThesis/tree/main/FederatedLearning/LogReg).  
+ 2. Download the files of the experiment.
+    > Note: The client and server scripts do not contain RSA encryption. For utilising encryption as well follow the documentation provided by flower
