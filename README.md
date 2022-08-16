@@ -129,3 +129,15 @@ In order to train a SNN model follow the steps below:
  1. Open the experiment folder you want to recreate: [MLP](https://github.com/sotirischatzimiltis/MscThesis/tree/main/FederatedLearning/MLP) , [SNN](https://github.com/sotirischatzimiltis/MscThesis/tree/main/FederatedLearning/SNN) or [LogReg](https://github.com/sotirischatzimiltis/MscThesis/tree/main/FederatedLearning/LogReg).  
  2. Download the files of the experiment.
     > Note: The client and server scripts do not contain RSA encryption. For utilising encryption as well follow the documentation provided by flower
+ 3. Open the terminal and make sure you satisfy the requirements needed to run the experiments
+ 4. Set server variables: 
+     - Set global test path 
+     - MLP: network variables & batch_size
+     - SNN: network variables & batch_size
+     - LogReg: alter logistic regression parameters if you wish
+ 5. Set client variables:
+      - Set local train and test paths
+      - MLP: network variables & batch_size
+      - SNN: network variable & batch_size
+      - LogReg: alter logistic regression parameters if you wish
+ 6. One terminal is needed for the server and one terminal is needed for every client (alternatively a script can be created) 
