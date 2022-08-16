@@ -50,12 +50,6 @@ HFL can be applied in neighbourhoods of SMs. Most of the smart meters produce da
 ##### Reference
 *Q. Yang, Y. Liu, T. Chen and Y. Tong, “Federated Machine Learning: Concept and Applications,” ACM Transactions on Intelligent Systems and Technology, vol. 10, no. 2, pp. 1-19, 2019.*
 
-### Results
-The code for training and testing the SNN was based on snnTorch tutorials, the rest of the machine learning models were implemented using Scikit-learn, and the framework used for federated learning was Flower.  The dataset utilised for the experiments was the NSLKDD which is vastly used as a benchmark ML dataset. The NSLKDD Test+ dataset was used for testing.
-
-#### Binary Classification
-#### Multiclass Classification
-#### Federated Learning
 
 ## Helpful Documentation
 ### Installation 
@@ -116,17 +110,11 @@ In order to train a SNN model follow the steps below:
 
 ##### Set Train Arguments
 1. bsize: Batch Size
-  > Default: 64
 2. nhidden: Number of hidden nodes
-  > Default: 4000
 3. nsteps: Number of input time steps
-  > Default: 25
 4. b: beta/decay factor of membrane potential 
-  > Default: 0.9
 5. learning_rate: Learninig Rate of optimizer
-  > Default: 5e-4
 6. nepochs: Number of training epochs
-  > Default: 10 
  
  #### Traditional ML techniques
  1. Download either the [binary](https://github.com/sotirischatzimiltis/MscThesis/blob/main/TraditionalML/traditionalml_binary_classification.py) or [multiclass](https://github.com/sotirischatzimiltis/MscThesis/blob/main/TraditionalML/traditionalml_multiclass_classification.py) classification python script.
