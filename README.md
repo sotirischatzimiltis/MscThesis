@@ -126,3 +126,4 @@ In order to train a SNN model follow the steps below:
  
  #### Federated Learning
  > Note: For this part it is better to follow the documentation provided by Flower [here](https://flower.dev/docs/)
+ 1. Open the experiment folder you want to recreate: MLP,SNN or LogReg.  
