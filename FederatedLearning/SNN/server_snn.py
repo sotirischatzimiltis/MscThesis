@@ -164,13 +164,14 @@ net = Net(num_inputs,num_hidden,beta).to(DEVICE)
 strategy = fl.server.strategy.FedAvg(evaluate_metrics_aggregation_fn=weighted_average,eval_fn = get_eval_fn(net,testloader,loss_fn,num_steps),
 fraction_fit=1,min_fit_clients=3,min_available_clients=3,min_eval_clients=3)
 # Start Flower server
-fl.server.start_server(
-    server_address="localhost:8080",
-    config={"num_rounds": 5},
-    strategy=strategy,
-    certificates=(
-        Path(".cache/certificates/ca.crt").read_bytes(),
-        Path(".cache/certificates/server.pem").read_bytes(),
-        Path(".cache/certificates/server.key").read_bytes(),
-    )
-)
+# fl.server.start_server(
+#     server_address="localhost:8080",
+#     config={"num_rounds": 5},
+#     strategy=strategy,
+#     certificates=(
+#         Path(".cache/certificates/ca.crt").read_bytes(),
+#         Path(".cache/certificates/server.pem").read_bytes(),
+#         Path(".cache/certificates/server.key").read_bytes(),
+#     )
+# )
+fl.server.start_server(server_address="localhost:8080",config={"num_rounds": 5},strategy=strategy)
